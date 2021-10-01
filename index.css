@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+path:hover, circle:hover {
+    stroke: #000000 !important;
+    stroke-width:2px;
+    stroke-linejoin: round;
+    fill: #001269 !important;
+    cursor: pointer;
+}
+.st0{fill: #78d8f2;stroke: #000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
+.st2{opacity:0.5;fill:none;stroke:#6BB5B8;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;}
